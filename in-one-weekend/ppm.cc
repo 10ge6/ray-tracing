@@ -14,6 +14,7 @@ int main() {
         std::cout << "P3\n" << image_width << ' ' << image_height << "\n255\n";
 
         for (int i = image_height - 1; i>=0; i--) {
+                std::cerr << "\rScanlines remaining: " << i << ' '<< std::flush;
                 for (int j = 0; j < image_width; j++) {
                         
                         // value normalization between 0.0 ~ 1.0
@@ -31,6 +32,8 @@ int main() {
                         std::cout << ir << ' ' << ig << ' ' << ib << '\n';
                 }
         }
+
+        std::cerr << "\nDone.\n";
 
         return 0;
 }

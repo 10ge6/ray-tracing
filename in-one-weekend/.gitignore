@@ -1,0 +1,6 @@
+# compiled binaries
+bin/
+
+# source PPM files (so only ones converted to PNG show up)
+render/*.ppm
+
