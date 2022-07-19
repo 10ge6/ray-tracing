@@ -1,4 +1,5 @@
-// example PPM file format generator
+// implement a simple ray-tracer and color pixels red if they hit our object.
+// in this example, a sphere is placed with its center at (0, 0, 0). 
 
 #include "color.h"
 #include "ray.h"

@@ -1,4 +1,4 @@
-// example PPM file format generator
+// surface normals visualization
 
 #include "color.h"
 #include "ray.h"

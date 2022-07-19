@@ -1,4 +1,4 @@
-// example PPM file format generator
+// simple gradient generator by coloring pixels based on their y-coordinate values
 
 #include "color.h"
 #include "ray.h"
